@@ -1,0 +1,377 @@
+
+*,
+*::after,
+*::before{
+    margin-left: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {    
+    max-height: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+    font-size: 20px;
+    font-family: 'Khula', sans-serif;
+    
+}
+
+header{    
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.flex-title{
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    
+}
+
+.header-ul a{
+    text-decoration: none;
+    color: black;
+    font: bold;
+}
+.list-item{
+    margin-left: 260px;
+}
+
+.list-item_segundo{
+    margin-left: 32px;
+}
+.header_seach{
+    position: relative;
+    left: 135px;
+    width: 15px; 
+    top: 0;
+    
+}
+.header_type{
+ margin-left: 110px;   
+border: none;
+background: #F3F3F3;
+height: 52px;
+font-size: 16px;
+width: 190px;
+border-radius: 52px;
+margin-top: -10px;
+margin-right: 18px;
+padding-left: 30px;
+
+}
+.header_title{
+    margin-left: 46px;
+}
+.list-item_terceiro{
+    margin-top: -10px;
+    margin-left: 0;
+}
+
+.section_space{
+    margin-top: 100px;
+    margin-bottom: none;
+    margin-left: 50px;
+}
+.main-logo img{
+    width: 390px;
+    
+}
+.main-p_logo_image{
+    display: flex;
+    margin-bottom: 50px;
+}
+.main-border{
+    position: absolute;
+    margin: 2px solid black;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background: white;
+
+}
+.main-logo_image{
+    position: relative;
+    left: 500px;
+    top: -380px;
+    
+    width: 804px;
+     
+    
+}
+.aside_center{
+    text-align: center;
+    background: #F3F3F3;
+    border-radius: 8px;
+    height: 670px;
+    margin-top: -250px;
+    margin-left: 50px;   
+    margin-right: 50px;
+    margin-bottom: 70px;
+}
+.aside_center h2{
+  padding-top: 20px;
+  font-family: 'Khula' sans-serif;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.aside_flex{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin-left: 525px;
+}
+.aside_center li{
+    margin: 15px;
+}
+    .border{
+     position: relative;   
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    top: -60px;
+    margin-top: 15px;     
+}
+.aside_center p{
+    padding-bottom: 65px;
+}
+.section-section{
+  margin-top: 50px;   
+  margin-left: 50px;
+}
+.section-section_p{
+    margin-left: 50px;
+}
+   
+ .section-section_p img{
+     position: relative; 
+     left: 750px;
+     width: 504px;
+     height: 400px;
+     top: -210px;
+     margin-bottom: -130px;
+     
+
+ }
+ .section-section-section{
+     position: relative;
+     margin-top: -20px;
+     margin-bottom: 0;
+     margin-left: 50px;
+    
+ }
+ 
+
+.section-section-section_shoes img{
+    height: 504px;
+   
+      
+} 
+ .section-section-section_im{
+    position: absolute;
+     top: 0;
+     left: 710px;
+     
+
+ }
+ .section-section-section_text{
+     position: absolute;
+     left: 710px;
+     top: 130px;
+     
+ }
+ .section-section-section-section{
+     position: relative;
+     margin-top: 50px;
+     margin-bottom: -140px;
+     margin-left: 50px;
+ }
+ /*.section-section-section-section_p{
+     display: flex;
+ }*/
+
+ .section-section-section-section_img{
+    position: relative; 
+     left: 790px;
+     top: -170px;
+     height: 400px;
+     
+ }
+ 
+ .section-run{
+    background-image: url('../img/arrow.png');
+    height: 610px;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 50px;
+    margin-left: -14px;
+    margin-right: none;
+    margin-bottom: -25px;
+ }
+ .section-run h1{
+   font-size: 80px;
+   font-weight: bold;
+ }
+ .section-section-section-section_p img{
+     position: relative;
+     top: -20px;
+     width: 450px;
+     height: 470px;
+     left: 150px;
+ }
+ .section-run{
+    background-image: url('../img/arrow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 44px;
+    color: white;
+    padding-left: 25px;
+}
+
+/* imagem da seta */
+img.section-run_image {
+    margin-right: 20px;
+}
+
+.section_form_map{
+    margin-top: 110px;
+    margin-bottom: -25px;
+    
+    
+    
+}
+
+.section_map{
+    /* position: relative; */
+    top: -50px;
+        
+}
+.section_map img{
+    width: 750px;
+    height: 540px;
+    margin-left: 40px;
+} 
+.section-form{
+     position: relative; 
+    top: -575px;
+    left: 750px;
+    background: #F3F3F3;
+    height: 540px;
+    width: 580px;
+    margin-left: 0;
+    padding-left: 48px;
+    margin-right: 20px;
+    
+   
+ 
+}
+.section-form h3{
+    padding-bottom: 10px;
+}
+.section-form_text{
+    position: relative;
+    top: -15px;
+    border: none;
+    height: 38px;
+    width: 517px;
+    border-radius: 12px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+   
+}
+.section-form_email{
+    position: relative;
+    top: -10px;
+    border: none;
+    height: 38px;
+    width: 517px;
+     border-radius: 12px;
+     padding-left: 10px;
+     margin-bottom: 3px;
+
+}
+.section_form_checbox{
+    color: #969696;
+    font-size: 20px;
+}
+
+.height{
+    width: 200px;
+    height: 200px;
+    border: none;
+    height: 260px;
+    width: 517px;
+    border-radius: 12px;
+
+}
+.margin{
+    position: relative;
+    margin: 2px solid black;
+    width: 520px;
+    height: 60px;
+    border-radius: 8px;
+    font-weight: bold;
+    top: -25px;
+    
+}
+
+footer {
+     position: relative;
+    top: -400px;
+    background: #F3F3F3;
+    height: 450px;
+    font-size: 28px;
+    line-height: 28px;
+    
+    
+    
+}
+footer h3{
+    position:relative;
+    top: 42px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 28px;
+    color: inherit;
+}
+footer ul{
+    position:relative;
+    left: 200px;
+    list-style: none;
+    top: -25px;    
+       
+    
+}
+.footer-ul-ul{
+    position: relative;
+    margin-left: 450px;
+    top: -300px;
+}
+.footer-ul-ul-ul{
+    position: relative;
+    top: -600px;
+    margin-left: 800px;
+    
+}
+
+.footer-ul-ul-ul li{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 180px;
+    
+    
+}
+.footer-text_position{
+    position: relative;
+    margin-left: 600px;
+    top: -300px;
+    
+}
